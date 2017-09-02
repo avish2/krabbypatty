@@ -11,7 +11,7 @@ The objective of this project was to start to build full-stack applications with
 
 The app is a simple interactive page that allows you to "consume" burgers from a pre-made list as well as any that the user adds. Once consumed, the burger name is transfered to a seperate "eaten" list. A function to delete burgers off that list is in the works.
 
-[Heroku Demo](#)
+[Heroku Demo](https://krabby-patty-a.herokuapp.com/burgers)
 
 On the server side of the application, every added and consumed burger is logged. Attached to the log is the date and time and an ID number from the database. 
 
