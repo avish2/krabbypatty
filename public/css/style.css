@@ -1,0 +1,96 @@
+
+body { 
+  background: url("/img/sea.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  font-weight: bold;
+}
+
+input {
+  color: #000 ;
+}
+
+.uneaten-title {
+  text-align: center;
+}
+
+.uneaten {
+  margin: 20px;
+}
+
+#burger-title {
+  margin-top: 10px;
+}
+
+#bob {
+  float: left;
+  height: 185px;
+  width: 216px;
+  margin-top: 5px;
+}
+
+#eatingguy {
+  float: right;
+}
+.toeat {
+  margin-top: -30px;
+}
+ul {
+  text-align: center;
+}
+ul.uneaten li{
+  display: inline-block;
+  text-align: center;
+  list-style-type:none;
+  margin: 10px;
+}
+
+#update {
+text-align: center;
+background-color: rgba(255, 255, 255, 0.66);
+border-color: black;
+margin-right: 40px;
+padding: 20px;
+}
+
+#eaten {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.66);
+  border-color: black;
+  padding: 20px;
+}
+
+button.btn.btn-default {
+  background-color: rgba(0, 0, 0, 0.66);
+  color: #00d8ff;
+  padding: 15px;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#copy {
+  color: white;
+  padding: 30px;
+}
+@media screen and (max-width: 980px) {
+	#burger-title {
+    width: 100%;
+  }
+  #bob {
+    float: none;
+  }
+  #update {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
