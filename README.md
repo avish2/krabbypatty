@@ -1,7 +1,7 @@
 
 #Eat Da Burger
 
-![alt tag](https://github.com/avish2/burger/blob/master/public/img/screenshot.png)
+![alt tag](https://github.com/avish2/krabbypatty/blob/master/public/img/screenshot.png)
 
 ##Objective
 
